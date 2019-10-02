@@ -15,8 +15,18 @@ namespace CSharpClass
            //MyLessonSevenExamples();
            //MyExample1();
            //MyLesson8Examples();
-           MyOtherLesson8Examples();
+           //MyOtherLesson8Examples();
+           MyLesson9Examples();
         } // End Method Main
+
+        static void MyLesson9Examples()
+        {
+            Lesson9 myNine = new Lesson9();
+            myNine.BasicArray();
+            myNine.MultiArraySample();
+            myNine.My3DArrayExample();
+            myNine.MyJaggedArrayExample();
+        } // end method my lesson 9 examples
 
         static void MyOtherLesson8Examples()
         {
