@@ -20,20 +20,31 @@ namespace CSharpClass
            //MyLesson10Examples();
            //MyLesson11Examples();
            //MyBeerSong();
-           myLesson12Examples();
-           MyOtherlesson12Examples();
+           //MyLesson12Examples();
+           //MyOtherlesson12Examples();
+           MyOtherlesson12Examples2(); 
         } // End Method Main
+
+        static void MyOtherlesson12Examples2()
+        {
+            Radio myRadio = new Radio();
+            myRadio.RadioPlaysMusic();
+
+            CarStereo myCarstereo = new CarStereo();
+            myCarstereo.RadioPlaysMusic();
+        }
 
         static void MyOtherlesson12Examples()
         {
             Shoes myShoes = new Shoes();
             myShoes.ShoesWorn();
 
-            
+            Sandal mySandal = new Sandal();
+            mySandal.ShoesWorn();
 
         }
 
-        static void myLesson12Examples()
+        static void MyLesson12Examples()
         {
             Condo myCondo = new Condo();
             myCondo.DoorOpenClose();

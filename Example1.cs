@@ -112,8 +112,8 @@ namespace CSharpClass
 
 
 
-    }
-}
+    } // end class  
+} // end namespace
 
 
 
