@@ -19,8 +19,30 @@ namespace CSharpClass
            //MyLesson9Examples();
            //MyLesson10Examples();
            //MyLesson11Examples();
-           MyBeerSong();
+           //MyBeerSong();
+           myLesson12Examples();
+           MyOtherlesson12Examples();
         } // End Method Main
+
+        static void MyOtherlesson12Examples()
+        {
+            Shoes myShoes = new Shoes();
+            myShoes.ShoesWorn();
+
+            
+
+        }
+
+        static void myLesson12Examples()
+        {
+            Condo myCondo = new Condo();
+            myCondo.DoorOpenClose();
+
+
+            House myHouse = new Condo();
+            myHouse.DoorOpenClose();
+
+        }
 
         static void MyBeerSong()
         {
