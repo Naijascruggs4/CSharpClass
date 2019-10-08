@@ -1,6 +1,6 @@
 ﻿using System;
 using CSharpClass.Lessons;
-
+using CSharpClass.Labs;
 namespace CSharpClass
 {
     /*This class is the start of my application 
@@ -22,8 +22,41 @@ namespace CSharpClass
            //MyBeerSong();
            //MyLesson12Examples();
            //MyOtherlesson12Examples();
-           MyOtherlesson12Examples2(); 
+           //MyOtherlesson12Examples2(); 
+           //MyLabExample();
+           //MyLabsExample(); 
+           MyLesson13House();
         } // End Method Main
+
+        static void MyLesson13House()
+        {
+            House myHouse = new House(36, "granite");
+            Console.WriteLine(myHouse.DoorColor);
+            myHouse.RoofType = "Steel";
+            myHouse.DoorOpenClose();
+
+        } // end my lesson 13 house
+
+        static void MyLabsExample()
+        {
+            Horse myHorse = new Horse();
+            myHorse.Racing();
+
+            Pony myPony = new Pony();
+            myPony.Racing();
+
+            Numbers mySubtraction = new Numbers();
+            mySubtraction.CountingThrees();
+
+
+
+        }
+
+        static void MyLabExample()
+        {
+            Lab2 myLabs = new Lab2();
+            myLabs.GradeCheck('e');
+        }
 
         static void MyOtherlesson12Examples2()
         {

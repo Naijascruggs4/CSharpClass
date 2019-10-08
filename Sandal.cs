@@ -8,6 +8,12 @@ namespace CSharpClass
     {
        string _straps; 
 
+       public string Straps
+       {
+           get {return _straps;}
+           set {_straps = value;}
+       }
+
         public void protects()
         {
         
@@ -16,7 +22,6 @@ namespace CSharpClass
         public override void ShoesWorn()
         {
             Console.WriteLine("The Sandal is Worn");
-            
         }
 
 

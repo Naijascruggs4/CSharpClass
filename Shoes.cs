@@ -11,6 +11,28 @@ namespace CSharpClass
         string _eyelets;
         string _soles;
 
+        public int PlasticEyelets
+        {
+            get {return _plasticEyelets;}
+            set {_plasticEyelets = value;}
+        }
+
+        public string Laces
+        {
+            get {return _laces;}
+            set {_laces = value;}
+        }
+
+        public string Eyelets
+        {
+            get {return _eyelets;}
+            set {_eyelets = value;}
+        }
+        public string Soles
+        {
+            get {return _soles;}
+            set {_soles = value;}
+        }
 
         public virtual void ShoesWorn()
         {
@@ -23,5 +45,5 @@ namespace CSharpClass
         }
 
 
-    } // end class
-} // end namespace
+        } // end class
+    } // end namespace

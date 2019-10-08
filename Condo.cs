@@ -8,13 +8,25 @@ namespace CSharpClass
     {
         string _balcony;
 
-        public void maintenance()
+        public string Balcony {get; set;}
+
+        public Condo()
+            :this("second floor")
         {
             
         }
 
+        public Condo(string balcony)
+            :base(32, "concrete")
+        {
+            Balcony = balcony;
+        }
+
+        public void maintenance() { base.DoorOpenClose(); }
+        
         public override void DoorOpenClose()
         {
+            base.DoorOpenClose();
             Console.WriteLine("This condo door is closed");
 
         }
