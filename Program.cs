@@ -28,8 +28,22 @@ namespace CSharpClass
            //MyLesson13House();
            //MyLesson14Examples();
            //MyLesson15Examples();
-           MyLesson16Examples();
+           //MyLesson16Examples();
+            MyHDTelevision();
+            MyFourKTelevision();
         } // End Method Main
+
+        static void MyHDTelevision()
+        { 
+            HDTelevision myTv = new HDTelevision(4, 525m);
+            myTv.TurnOn(); 
+        }// end my hd television
+
+        static void MyFourKTelevision()
+        {
+            FourKTelevision myTv = new FourKTelevision(2, 175m);
+            myTv.TurnOn();
+        }
 
         static void MyLesson16Examples()
         {
