@@ -27,8 +27,21 @@ namespace CSharpClass
            //MyLabsExample(); 
            //MyLesson13House();
            //MyLesson14Examples();
-           MyLesson15Examples();
+           //MyLesson15Examples();
+           MyLesson16Examples();
         } // End Method Main
+
+        static void MyLesson16Examples()
+        {
+            Lesson16 my16 = new Lesson16();
+            my16.MyArrayListExample();
+            my16.MyHashTableExamples();
+            my16.MyListExample();
+            my16.MyOtherList();
+            my16.MyDictionaryExample();
+            my16.MyLinqExample();
+            my16.MyOtherLinq();
+        } // end method my lesson 16 examples
 
         static void MyLesson15Examples()
         {
@@ -42,7 +55,7 @@ namespace CSharpClass
                 Console.WriteLine("Value of {0} = {1}", i, my15[i]);
             }
             
-        }
+        } // end my lesson 15 examples
 
         static void MyLesson14Examples()
         {
@@ -77,7 +90,7 @@ namespace CSharpClass
 
 
 
-        }
+        } // end my ledsson 13 house
 
         static void MyLabExample()
         {
@@ -92,7 +105,7 @@ namespace CSharpClass
 
             CarStereo myCarstereo = new CarStereo();
             myCarstereo.RadioPlaysMusic();
-        }
+        } // end my other lesson 12 examples 2
 
         static void MyOtherlesson12Examples()
         {
@@ -102,7 +115,7 @@ namespace CSharpClass
             Sandal mySandal = new Sandal();
             mySandal.ShoesWorn();
 
-        }
+        } // end my other lesson 12 examples
 
         static void MyLesson12Examples()
         {
@@ -113,13 +126,13 @@ namespace CSharpClass
             House myHouse = new Condo();
             myHouse.DoorOpenClose();
 
-        }
+        } // end my lesson 12 examples
 
         static void MyBeerSong()
         {
             BottlesOfBeer beer = new BottlesOfBeer();
             Console.WriteLine(beer.LetsSing());
-        }
+        } // end my beer song
 
         static void MyLesson11Examples()
         {
