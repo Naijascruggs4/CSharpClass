@@ -29,21 +29,46 @@ namespace CSharpClass
            //MyLesson14Examples();
            //MyLesson15Examples();
            //MyLesson16Examples();
-            MyHDTelevision();
-            MyFourKTelevision();
+            //MyHDTelevision();
+            //MyFourKTelevision();
+            //MyLesson17Examples();
+            MyDogLab();
         } // End Method Main
+
+        static void MyDogLab()
+        {
+            DogLab myDogLab = new DogLab();
+            myDogLab.SmallDogToHumanYears();
+            
+        }// end method my dog lab
+
+        public delegate void TryOn(string val);
+
+        static void MyLesson17Examples()
+        {
+            Lesson17 my17 = new Lesson17("Cowboy", 7);
+            TryOn theHat = my17.TryOnHat;
+            theHat("I tried on a " + my17.HatType + " hat that was size " +
+            my17.HatSize);
+
+            Lesson17 myLesson17 = new Lesson17();
+
+            Lesson17 myFav17 = new Lesson17("Trucker");
+            Console.WriteLine(myFav17.MyResult);
+            Console.WriteLine(myFav17.MyLambdaExample(6));
+        } // end method my lesson 17 examples
 
         static void MyHDTelevision()
         { 
             HDTelevision myTv = new HDTelevision(4, 525m);
             myTv.TurnOn(); 
-        }// end my hd television
+        }// end method my hd television
 
         static void MyFourKTelevision()
         {
             FourKTelevision myTv = new FourKTelevision(2, 175m);
             myTv.TurnOn();
-        }
+        } // end method my four k television
 
         static void MyLesson16Examples()
         {
